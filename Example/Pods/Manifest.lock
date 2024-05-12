@@ -1,0 +1,16 @@
+PODS:
+  - MobileCore (0.1.0)
+
+DEPENDENCIES:
+  - MobileCore (from `../`)
+
+EXTERNAL SOURCES:
+  MobileCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MobileCore: 5133c70f4dcc1b5b1406920ae91d828fc234dfba
+
+PODFILE CHECKSUM: 5c15b25bbe88c15fec69187acdf14c7ebab9fbd3
+
+COCOAPODS: 1.15.2

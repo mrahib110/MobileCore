@@ -41,11 +41,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6987EDA34B71AA7C5EC9FBF6 /* Pods-MobileCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MobileCore_Tests/Pods-MobileCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A338B228AA1157D8F1F90DEA /* Pods-MobileCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileCore_Example.release.xcconfig"; path = "Target Support Files/Pods-MobileCore_Example/Pods-MobileCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A76F9D92518210EAB3E2BAC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A76F9D92518210EAB3E2BAC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BFEE51431AFEDCBFEFA05C36 /* Pods_MobileCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04C92CD683696EC45580148 /* Pods-MobileCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-MobileCore_Example/Pods-MobileCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF91676973029A7CA1EF8D6D /* MobileCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MobileCore.podspec; path = ../MobileCore.podspec; sourceTree = "<group>"; };
-		E9D5E0C4CD7E9EB63A810D18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DF91676973029A7CA1EF8D6D /* MobileCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MobileCore.podspec; path = ../MobileCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E9D5E0C4CD7E9EB63A810D18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F9C8BF8DADE4A72440A191E2 /* Pods_MobileCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				6987EDA34B71AA7C5EC9FBF6 /* Pods-MobileCore_Tests.debug.xcconfig */,
 				3AFEB7AC8F189BAC2CE14568 /* Pods-MobileCore_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

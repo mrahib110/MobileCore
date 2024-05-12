@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import MobileCore
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let vc = DashboardViewController()
+        self.present(vc, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

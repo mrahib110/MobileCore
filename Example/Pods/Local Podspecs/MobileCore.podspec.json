@@ -1,0 +1,22 @@
+{
+  "name": "MobileCore",
+  "version": "0.1.0",
+  "summary": "A short description of MobileCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rahib110/MobileCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DEVS": "thisismrahib@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rahib110/MobileCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "MobileCore/Classes/**/*"
+}
